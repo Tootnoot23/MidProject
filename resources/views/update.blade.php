@@ -23,8 +23,8 @@
         <input type="text" class="form-control" name="Author_book" value="{{$book->Author}}">
       </div>
       <div class="mb-3">
-        <label for="Publisher_book" class="form-label">Publisher</label>
-        <input type="text" class="form-control" name="Publisher_book" value="{{$book->Publisher}}">
+        <label for="Page_book" class="form-label">Page</label>
+        <input type="text" class="form-control" name="Page_book" value="{{$book->Page}}">
       </div>
       <div class="mb-3">
         <label for="Year_book" class="form-label">Year</label>
