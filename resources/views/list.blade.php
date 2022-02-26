@@ -4,6 +4,7 @@
 <table class="table">
     <thead>
       <tr>
+        <div class="p-3 mb-2 bg-primary text-white text-center">LIST BUKU</div>
         <th scope="col">id</th>
         <th scope="col">Title</th>
         <th scope="col">Author</th>
