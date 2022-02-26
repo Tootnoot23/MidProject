@@ -62,7 +62,7 @@ class BookController extends Controller
             'Year' => $request->Year_book,
         ]);
         $books = Book::all();
-        return view('list', compact('books'));
+        return view('welcome');
     }
 
     public function destroy($id)

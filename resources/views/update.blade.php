@@ -11,7 +11,7 @@
         @endforeach
     </ul>
 @endif
-<form action="{{route('update', $book->id)}}" method="POST">
+<form action="{{route('update', $book->id)}}" method="POST" enctype="multipart/form-data">
     @csrf
     @method('PATCH')
     <div class="mb-3">

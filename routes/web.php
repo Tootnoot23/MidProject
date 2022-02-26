@@ -20,3 +20,4 @@ Route::get('/book', [BookController::class, 'show'])->name('show');
 Route::get('/book/edit/{id}', [BookController::class, 'edit'])->name('edit');
 Route::patch('/book/{id}', [BookController::class, 'update'])->name('update');
 Route::delete('/book/{id}', [BookController::class, 'destroy'])->name('delete');
+Route::delete('/book/edit/{id}', [BookController::class, 'destroy'])->name('delete');
